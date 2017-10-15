@@ -1,0 +1,23 @@
+.contentRow7 {
+  background: red;
+  height: 840px; }
+
+.pRow1 {
+  position: relative;
+  right: 15px;
+  top: 130px; }
+
+.h1Row {
+  position: relative;
+  top: 120px; }
+
+.pRow2 {
+  position: relative;
+  top: 140px;
+  text-align: center; }
+
+.borderRow7 {
+  border: 1px solid gray;
+  height: 300px; }
+
+/*# sourceMappingURL=ContentRow7.css.map */

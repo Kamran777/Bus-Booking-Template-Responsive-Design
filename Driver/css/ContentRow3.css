@@ -1,0 +1,33 @@
+.contentRow3 {
+  width: 1349px;
+  height: 842px; }
+
+.imagesRow3 {
+  margin: -35px;
+  position: relative;
+  top: 180px; }
+
+.services {
+  position: relative;
+  top: 120px; }
+
+.btnRow3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff514e;
+  position: relative;
+  top: 15px; }
+  .btnRow3:hover {
+    text-decoration: none;
+    color: #383838;
+    transition: .3s; }
+
+.h1HoverRow3:hover {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff514e;
+  transition: .3s; }
+
+/*# sourceMappingURL=ContentRow3.css.map */

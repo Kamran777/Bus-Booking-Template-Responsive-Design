@@ -1,0 +1,117 @@
+$headerText: #ffffff;
+
+header{
+	width:1349px;
+	height:946px;
+}
+.imageHeader{
+	background-image: url(../images/headerImage.jpg);
+	width: 1349px;
+	height: 946px;
+	z-index: 111;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.headerNav{
+	width: 1200px;
+	height: 39px;
+	top: 50px;
+	position: relative;
+	float: left;
+		.logo{
+			a{
+				color: $headerText;
+				text-decoration: none;
+				font-weight: 600;
+				height: 45px;
+				right: 40px;
+				font-family: 'Oswald', sans-serif !important;
+				font-size: 32px;
+			    line-height: 1.3;
+			    letter-spacing: 0px;
+			    position: relative;
+			}
+
+		}
+		nav{
+			height: 39px;
+			left: 15px;
+				ul{
+					list-style-type: none;
+						li{						
+							color: #ffffff;
+							display: inline-block;;
+							padding: 9px 20px;
+							position: relative;
+							font-size: 16px;
+							color: $headerText;
+							font-weight: 400;
+							font-family: 'Open Sans', sans-serif !important;
+								&:hover{
+									color:rgb(252, 231, 97);
+									transition:0.3s;
+								}
+						}
+				}
+		}
+}
+.headerContent{
+	position: absolute;
+	width: 880px;
+	height: 342px;
+	top:280px;
+	h1{
+		position: relative;
+		font-weight: 400;
+	    font-style: normal;
+	    font-family: 'Oswald', sans-serif;
+	    color: #ffffff;
+	    font-size: 70px;
+	    top: -10px;
+	    line-height: 1.3;
+	    letter-spacing: 0px;
+	    right: 30px;
+	}
+	p{
+		position: relative;
+		font-weight: 400;
+	    font-style: normal;
+	    font-family: 'Open Sans', sans-serif;
+	    color: #ffffff;
+	    font-size: 20px;
+	    line-height: 1.5;
+	    letter-spacing: 0px;
+	    top: 220px;
+	    height: 20px;
+	    position: absolute;
+	    left: -29px;
+	}
+	a{
+		position: absolute;
+		top: 290px;
+		font-family: 'Open Sans', sans-serif;
+	    font-weight: 700;
+	    font-style: normal;
+	    color: rgb(255, 255, 255);
+	    background-color: transparent;
+	    border: 2px solid rgba(255,255,255,0.2);
+	    font-size: 14px;
+	    height: 60px;
+	    padding: 20px 47px;
+	    left: -29px;
+    	&:hover{
+			color: #ffffff;
+		    background-color: transparent;
+		    border-color: #ffffff;
+		    transition: 0.5s;
+		    text-decoration: none;
+    	}
+   	}
+}
+.container{
+	background:red;
+	width: 100px;
+	height: 50px;
+	position: relative;
+}
